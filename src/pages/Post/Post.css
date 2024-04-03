@@ -1,0 +1,37 @@
+.postContainer {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .postWrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .postImage {
+    width: 40%;
+    height: auto;
+    border-radius: 4px;
+    margin-right: 20px;
+  }
+  
+  .postDetails {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+  
+  .postTitle {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .postContent {
+    display: flex;
+    margin: 10px 0;
+  }
+  
